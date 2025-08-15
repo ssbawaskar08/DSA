@@ -20,6 +20,7 @@ class PairsOfArray {
             arr[i]=sc.nextInt();
             System.out.println();
         }
+        sc.close();
         printSA(arr);
     }
 }
