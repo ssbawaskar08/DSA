@@ -1,4 +1,3 @@
-package LeetCode;
 public class Lc2815{
     public int maxSum(int[] nums) {
         int[] maxDigitNumsArray = getMaxDigitNumsArray(nums);
