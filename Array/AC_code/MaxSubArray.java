@@ -9,7 +9,7 @@ public class MaxSubArray {
             for(int j = i;j<arr.length;j++){
                 sum = 0;
                 end = j;
-                for(int k=start;k<=end;k++){
+                for(int k=start;k<=end;k++){ 
                     sum+=arr[k];
                 }
                 if(sum>largest){
